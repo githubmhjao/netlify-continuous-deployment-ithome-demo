@@ -1,2 +1,7 @@
 [build]
   publish="build"
+
+[[redirects]]
+  from = "/storage/api"
+  to = "https://fhy.wra.gov.tw/ReservoirPage_2011/StorageCapacity.aspx"
+  status = 200
