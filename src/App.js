@@ -72,7 +72,7 @@ export default function App() {
   return (
     <div className="container">
       <h1>Hello from Netlify</h1>
-      <h2>Enjoy the power of {process.env.POWER}!</h2>
+      <h2>Enjoy the power of Continuous Deployment!</h2>
       <ConditionSelector condition={condition} setCondition={setCondition} />
       <StorageChart datasetArray={datasetArray} dateArray={dateArray} condition={condition} />
     </div>
